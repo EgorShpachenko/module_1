@@ -1,4 +1,4 @@
-print("введите цену на товар")
-chena=input()
-Itog=int(chena)*2
-print(Itog)
+#Задание 1
+num1=int(input("please enter an integer:"))
+num2=num1*2
+print("yor result:=", num2)
