@@ -16,6 +16,8 @@ name_2 = "Олег"
 name_3  = "Маша"
 name_4 = "Паша"
 worker = [name_1, name_2, name_3, name_4]
-print(" ")
-print("В четные дни работают: ", worker[:2])
-print("в нечентые дни работают: ", worker[2:4])
+even_numbered=worker[0:2]
+not_even_nubered=worker[2:4]
+print("В четные дни работают: ", even_numbered)
+print()
+print("в нечентые дни работают: ", not_even_nubered)
